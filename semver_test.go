@@ -1,13 +1,12 @@
 package semver
 
 import (
-
-"testing"
+	"testing"
 )
 
 var TEST_VERSION *Version = &Version{10, 5, 6}
 
-func TestToString(t *testing.T){
+func TestToString(t *testing.T) {
 	if v := TEST_VERSION.ToString(); v != "10.5.6" {
 		t.Fatalf("Invalid ToString: %s != 10.5.6", v)
 	}

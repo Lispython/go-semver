@@ -5,7 +5,6 @@ Welcome to go-semver's documentation!
 go-semver is a golang package provides a simple support for `Semantic Versioning <http://semver.org/>`_.
 
 
-
 .. image:: https://secure.travis-ci.org/Lispython/go-semver.png
 	   :target: https://secure.travis-ci.org/Lispython/go-semver
 

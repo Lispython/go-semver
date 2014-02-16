@@ -1,9 +1,9 @@
 package semver
 
 import (
-	"strings"
 	"strconv"
-	)
+	"strings"
+)
 
 const SEPARATOR string = "."
 
